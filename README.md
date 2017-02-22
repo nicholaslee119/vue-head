@@ -53,12 +53,12 @@ var myComponent = Vue.extend({
     // Meta tags
     meta: [
       { name: 'application-name', content: 'Name of my application' },
-      { name: 'description', content: 'A description of the page', id: 'desc' } // id to replace intead of create element
+      { name: 'description', content: 'A description of the page', id: 'desc' }, // id to replace intead of create element
       // ...
       // Twitter
       { name: 'twitter:title', content: 'Content Title' },
       // with shorthand
-      { n: 'twitter:description', c: 'Content description less than 200 characters'}
+      { n: 'twitter:description', c: 'Content description less than 200 characters'},
       // ...
       // Google+ / Schema.org
       { itemprop: 'name', content: 'Content Title' },
@@ -81,9 +81,9 @@ var myComponent = Vue.extend({
       // ...
     ],
     script: [
-      { type: 'text/javascript', src: 'cdn/to/script.js', async: true, body: true} // Insert in body
+      { type: 'text/javascript', src: 'cdn/to/script.js', async: true, body: true}, // Insert in body
       // with shorthand
-      { t: 'application/ld+json', i: '{ "@context": "http://schema.org" }' }
+      { t: 'application/ld+json', i: '{ "@context": "http://schema.org" }' },
       // ...
     ],
     style: [
